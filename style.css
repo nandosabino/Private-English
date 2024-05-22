@@ -29,7 +29,7 @@ header {
     justify-content: space-between;
 }
 
-header a {
+header .link {
     color: #022d96;
     text-decoration: none;
     font-size: 18px;
@@ -37,7 +37,7 @@ header a {
     display: inline-block;
 }
 
-header a:hover {
+header .link:hover {
     color: #0B4EFA;
     transform: scale(1.05);
     transition: .2s;
