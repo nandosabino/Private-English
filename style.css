@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #f3f3f3;
+    background-color: #022d96;
     height: 100vh;
 }
 
@@ -23,6 +23,11 @@ header {
     padding: 45px;
 }
 
+#container {
+    background-color: #f3f3f3;
+    height: 155px;
+}
+
 .interface {
     display: flex;
     align-items: center;
@@ -30,7 +35,7 @@ header {
 }
 
 header .link {
-    color: #022d96;
+    color: #1c1663;
     text-decoration: none;
     font-size: 18px;
     margin: 15px;
@@ -38,7 +43,7 @@ header .link {
 }
 
 header .link:hover {
-    color: #0B4EFA;
+    color: #013eda;
     transform: scale(1.05);
     transition: .2s;
 }
@@ -59,7 +64,7 @@ header .main-button button {
     font-weight: 900;
     border-radius: 5px;
     cursor: pointer;
-    background-color: #fe0000;
+    background-color: #b40409;
     border: none;
     height: 50px;
     text-align: center;
@@ -86,7 +91,7 @@ header .main-button button:hover {
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
     animation-direction: alternate;
-    box-shadow: 0px 0px 8px #fe00006b;
+    box-shadow: 0px 0px 8px #ff000859;
 }
 
 section.main-content {
@@ -106,7 +111,7 @@ section.main-content .flex {
 }
 
 .main-content p {
-    color: #022d96;
+    color: #ffffff;
     font-size: 22px;
     line-height: 20px;
 }
