@@ -108,11 +108,16 @@ section.main-content .flex {
     font-family: "Roboto Condensed", sans-serif;
     font-weight: 800;
     font-style: normal;
+    color: #ffffff;
 }
 
 .main-content p {
     color: #ffffff;
     font-size: 22px;
     line-height: 20px;
+}
+
+.flex {
+    padding-top: 300px;
 }
 
