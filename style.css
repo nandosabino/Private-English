@@ -6,8 +6,8 @@
 }
 
 body {
-    background-color: #022d96;
-    height: 100vh;
+    background: linear-gradient(to bottom, #010714f1, #042579);
+    height: 100%;
 }
 
 .interface {
@@ -20,12 +20,21 @@ body {
 }
 
 header {
-    padding: 45px;
+    position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  z-index: 1000;
+
 }
 
-#container {
+.container {
     background-color: #f3f3f3;
-    height: 155px;
+    height: 100px;
 }
 
 .interface {
@@ -109,6 +118,8 @@ section.main-content .flex {
     font-weight: 800;
     font-style: normal;
     color: #ffffff;
+    margin-bottom: 20px;
+    margin-top: 80px;
 }
 
 .main-content p {
@@ -117,7 +128,45 @@ section.main-content .flex {
     line-height: 20px;
 }
 
-.flex {
-    padding-top: 300px;
+    
+ .prof {
+    width: 550px;
+    margin-top: 50px ;
+ }
+
+ .idiomas .idiomas-box {
+    color: #1c1663;
+    padding: 40px;
+    margin-top: 25px;
+    border-radius: 20px;
+    transition: .2s;
+
+}
+.idiomas .idiomas-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 8px #ffffff83
+}
+.idiomas-box img {
+    width: 100px;
+}
+section.idiomas .flex {
+    gap: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.idiomas-box {
+    background-color: #FFFFFF;
+}
+
+.titulo {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    color: #FFFFFF;
+}
+.idiomas {
+    margin-top: 80px;
 }
 
