@@ -29,7 +29,6 @@ header {
   padding: 10px 0;
   text-align: center;
   z-index: 1000;
-
 }
 
 .container {
@@ -120,6 +119,33 @@ section.main-content .flex {
     color: #ffffff;
     margin-bottom: 20px;
     margin-top: 80px;
+}
+
+.main-button2 a {
+
+}
+
+.main-button2 {
+    height: 40px;
+    width: 150px;
+    background: #b40409;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.main-button2:hover {
+    animation-name: animation;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    box-shadow: 0px 0px 8px #ff000859;
 }
 
 .main-content p {

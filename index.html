@@ -4,12 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="slides.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Anton&family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
+    <script src="./script.js" defer></script>
     <title>Private Idiomas</title>
 
   </head>
@@ -18,7 +20,7 @@
       <div class="interface">
         <div class="logo">
           <a href="">
-            <img class="logo" src="./assets/logo.png" alt="logo-private-english">
+            <img class="logo-private" src="./assets/logo.png" alt="logo private english">
           </a>
         </div>
         <nav class="nav-menu">
@@ -32,7 +34,7 @@
           </ul>
         </nav>
         <div class="main-button">
-          <a href="">
+          <a href="https://wa.me/5585981547082?text=Olá,%20%20quero%20me%20matricular%20na%20Private%20Idiomas!" target="_blank">
             <button>Matrícule-se já!</button>
           </a>
         </div>
@@ -51,13 +53,72 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, nam aliquid provident autem quibusdam consectetur eum. Dolorem, deserunt pariatur, reiciendis eum expedita nulla, ipsum nam omnis labore dolores officiis. Asperiores!
                       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et commodi eligendi aliquam laboriosam atque culpa vero exercitationem non. Quidem ipsum molestiae minima nam officia temporibus quo eius quasi maxime nesciunt.
                     </p>
-                    <button>Aprenda Inglês</button>
+                    <div class="mainbutton-2"> 
+                      <a href="https://wa.me/5585981547082?text=Olá,%20%20quero%20me%20matricular%20na%20Private%20Idiomas!" target="_blank">
+                        <button class="main-button2">Aprenda Inglês</button>
+                    </a>
+                    </div>
                 </div>
                 <div class="main-img">
-                    <img class="prof" src="./assets/Design sem nome (2).png">
+                    <img class="prof" src="./assets/fotoprofessor-edit.png">
                 </div>
             </div>
     </main>
+
+    <section class="slider">
+      <div class="slides">
+        <input type="radio" name="radio-btn" id="radio1">
+        <input type="radio" name="radio-btn" id="radio2">
+        <input type="radio" name="radio-btn" id="radio3">
+        <input type="radio" name="radio-btn" id="radio4">
+        <input type="radio" name="radio-btn" id="radio5">
+        <input type="radio" name="radio-btn" id="radio6">
+
+        <div class="slide first">
+          <img src="./assets/teachers.jpg" alt="imagem 1">
+        </div>
+
+        <div class="slide">
+          <img src="./assets/saladeaula-1.jpg" alt="imagem 2">
+        </div>
+
+        <div class="slide">
+          <img src="./assets/saladeaula-3.jpg" alt="imagem 3">
+        </div>
+
+        <div class="slide">
+          <img src="./assets/saladeaula-4.jpg" alt="imagem 4">
+        </div>
+
+        <div class="slide">
+          <img src="./assets/saladeaula-2.jpg" alt="imagem 5">
+        </div>
+
+        <div class="slide">
+          <img src="./assets/alunos.jpg" alt="imagem 6">
+        </div>
+
+        <div class="nav-auto">
+          <div class="auto-btn1"></div>
+          <div class="auto-btn2"></div>
+          <div class="auto-btn3"></div>
+          <div class="auto-btn4"></div>
+          <div class="auto-btn5"></div>
+          <div class="auto-btn6"></div>
+        </div>
+
+        <div class="nav-manual">
+          <label for="radio1" class="manual-btn"></label>
+          <label for="radio2" class="manual-btn"></label>
+          <label for="radio3" class="manual-btn"></label>
+          <label for="radio4" class="manual-btn"></label>
+          <label for="radio5" class="manual-btn"></label>
+          <label for="radio6" class="manual-btn"></label>
+        </div>
+
+      </div>
+    </section>
+
     <section class="idiomas" id="idiomas">
       <h1 class="titulo">Idiomas</h1>
       <div>
