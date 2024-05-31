@@ -6,13 +6,14 @@
 }
 
 body {
-    background: linear-gradient(to bottom, #010714f1, #042579);
+    background: #f3f3f3;
     height: 100%;
 }
 
 .interface {
     max-width: 1200px;
     margin: 0 auto;
+    margin-bottom: 50px;
 }
 
 .flex {
@@ -29,6 +30,7 @@ header {
   padding: 10px 0;
   text-align: center;
   z-index: 1000;
+  box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
 }
 
 .container {
@@ -48,6 +50,7 @@ header .link {
     font-size: 18px;
     margin: 15px;
     display: inline-block;
+    padding-right: 15px;
 }
 
 header .link:hover {
@@ -81,6 +84,7 @@ header .main-button button {
 
 img {
     width: 150px;
+    cursor: default;
 }
 
 @keyframes animation {
@@ -113,16 +117,13 @@ section.main-content .flex {
 }
 
 .main-content h1 {
-    font-family: "Roboto Condensed", sans-serif;
-    font-weight: 800;
-    font-style: normal;
-    color: #ffffff;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;  
+    color: #1c1663;
     margin-bottom: 20px;
     margin-top: 80px;
-}
-
-.main-button2 a {
-
 }
 
 .main-button2 {
@@ -149,7 +150,7 @@ section.main-content .flex {
 }
 
 .main-content p {
-    color: #ffffff;
+    color: #1c1663;
     font-size: 22px;
     line-height: 20px;
 }
@@ -158,41 +159,25 @@ section.main-content .flex {
  .prof {
     width: 550px;
     margin-top: 50px ;
- }
-
- .idiomas .idiomas-box {
-    color: #1c1663;
-    padding: 40px;
-    margin-top: 25px;
-    border-radius: 20px;
-    transition: .2s;
-
-}
-.idiomas .idiomas-box:hover{
-    transform: scale(1.05);
-    box-shadow: 0 0 8px #ffffff83
-}
-.idiomas-box img {
-    width: 100px;
-}
-section.idiomas .flex {
-    gap: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-}
-.idiomas-box {
-    background-color: #FFFFFF;
 }
 
-.titulo {
-    display: flex;
-    align-self: center;
-    justify-content: center;
-    color: #FFFFFF;
-}
 .idiomas {
     margin-top: 80px;
 }
 
+section.english-kids {
+    padding: 40px 4%;
+}
+
+section.english-kids .flex {
+    align-items: center;
+    gap: 60px;
+}
+
+.kid {
+    width: 550px;
+}
+
+.english-kids .text-kids {
+    color: #fff;
+}

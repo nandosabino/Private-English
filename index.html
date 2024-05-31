@@ -5,12 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
     <link rel="stylesheet" href="slides.css">
+    <link rel="stylesheet" href="cards.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Anton&family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
+    <style>@font-face {
+      font-family: fontKids;
+      src: url(./font-kids/Kids-Regular.ttf);
+    }</style>
     <script src="./script.js" defer></script>
     <title>Private Idiomas</title>
 
@@ -29,18 +34,18 @@
               <a class="link" href="#inicio">Início</a>
               <a class="link" href="#idiomas">Idiomas</a>
               <a class="link" href="nav-link">English Kid's</a>
-              <a class="link" href="nav-link">Sobre</a>
             </li>
           </ul>
         </nav>
+
         <div class="main-button">
           <a href="https://wa.me/5585981547082?text=Olá,%20%20quero%20me%20matricular%20na%20Private%20Idiomas!" target="_blank">
             <button>Matrícule-se já!</button>
           </a>
         </div>
       </div>
-
     </header>
+
     <main>
         <div class="main-content">
             <div class="interface">
@@ -115,31 +120,55 @@
           <label for="radio5" class="manual-btn"></label>
           <label for="radio6" class="manual-btn"></label>
         </div>
-
       </div>
     </section>
 
-    <section class="idiomas" id="idiomas">
-      <h1 class="titulo">Idiomas</h1>
-      <div>
-          <div class="flex">
-              <div class="idiomas-box">
-                  <img src="./assets/estados-unidos.png" alt="">
-                  <h3>Ingles</h3>
-                  <p></p>
-              </div>
-              <div class="idiomas-box">
-                  <img src="./assets/franca.png" alt="">
-                  <h3>Franceis</h3>
-                  <p></p>
-              </div>
-              <div class="idiomas-box">
-                  <img src="./assets/italia.png" alt="">
-                  <h3>Italiano</h3>
-                  <p></p>
-              </div>
+    <main>
+
+      <section class="idiomas">
+        <div class="container">
+          <div class="card card-1">
+            <div class="card-header">
+              <img src="./assets/bandeira eua2.jpg" class="card-img">
+            </div>
+
+            <div class="card-body">
+              <h2 class="card-idioma">Inglês</h2>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quasi, aut pariatur sunt cum cumque soluta neque ducimus vel, inventore nihil dolore totam asperiores assumenda culpa unde non magnam quis?
+              </p>
+            </div>
           </div>
-      </div>
-  </section>
+
+          <div class="card card-2">
+            <div class="card-header">
+              <img src="./assets/bandeira da frança2.jpg" class="card-img">
+            </div>
+ 
+            <div class="card-body">
+              <h2 class="card-idioma">Francês</h2>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quasi, aut pariatur sunt cum cumque soluta neque ducimus vel, inventore nihil dolore totam asperiores assumenda culpa unde non magnam quis?
+              </p>
+            </div>
+          </div>
+
+          <div class="card card-3">
+            <div class="card-header">
+              <img src="./assets/Bandeira da Itália.jpg" class="card-img">
+            </div>
+
+            <div class="card-body">
+              <h2 class="card-idioma">Italiano</h2>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quasi, aut pariatur sunt cum cumque soluta neque ducimus vel, inventore nihil dolore totam asperiores assumenda culpa unde non magnam quis?
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+    </main>
+
   </body>
 </html>
