@@ -70,6 +70,7 @@ li {
 }
 
 header .main-button button {
+    margin-left: 20px;
     padding: 10px 40px;
     font-size: 15px;
     font-weight: 900;
@@ -150,7 +151,7 @@ section.main-content .flex {
 }
 
 .main-content p {
-    color: #1c1663;
+    color: #212529;
     font-size: 22px;
     line-height: 20px;
 }
@@ -161,23 +162,34 @@ section.main-content .flex {
     margin-top: 50px ;
 }
 
-.idiomas {
-    margin-top: 80px;
-}
-
 section.english-kids {
     padding: 40px 4%;
+    background-image: url(./assets/background-kids.jpg);
+    background-size: cover
 }
 
 section.english-kids .flex {
     align-items: center;
-    gap: 60px;
+    gap: 10px;
 }
 
 .kid {
     width: 550px;
 }
 
-.english-kids .text-kids {
-    color: #fff;
+.text-kids h1 {
+    font-family: fontKids;
+    font-size: 40px;
+    margin-bottom: 30px;
+    color: #B22222;
+    margin-bottom: 30px;
+    line-height: 40px;
+}
+
+.text-kids p {
+    color: #000000;
+    font-size: 25px;
+    line-height: 24px;
+    margin: 20px 0;
+    text-align: justify;
 }
