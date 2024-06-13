@@ -10,11 +10,10 @@
 }
 
 section.idiomas {
-    background-color: #022d96;
     min-height: 100vh;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 200px;
 }
 
 .container {
