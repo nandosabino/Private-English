@@ -2,15 +2,15 @@ section.idiomas {
     padding: 40px 4%;
     min-height: 100vh;
     margin-top: 250px;
-    background: rgb(44,78,212);
-    background: radial-gradient(circle, rgba(44,78,212,1) 0%, rgba(0,78,171,1) 100%);
 }
 
 h1.title-idiomas {
-    color: #ffff;
+    color: #1c1663;
     font-family: "Raleway", sans-serif;
-    font-size: 38px;
+    font-size: 58px;
+    font-weight: bold;
     text-align: center;
+    margin-bottom: 100px;
 }
 
 .container {
@@ -18,6 +18,7 @@ h1.title-idiomas {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    margin-bottom: 100px;
 }
 
 .card {
