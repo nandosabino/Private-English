@@ -6,6 +6,7 @@ section.slider {
     padding: 0;
     overflow: hidden;
     border-radius: 20px;
+    background-color: #1c1663;
 }
 
 .slides {
