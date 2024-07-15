@@ -21,13 +21,11 @@ body {
 }
 
 header {
+    padding: 30px 4%;
     position: fixed;
-    top: 0;
-    left: 0;
     width: 100%;
     background-color: #f3f3f3;
     color: white;
-    padding: 20px 0;
     text-align: center;
     z-index: 1000;
     box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
@@ -41,20 +39,20 @@ header > .interface {
 
 header a {
     color: #1c1663;
-    font-size: 18px;
+    font-size: 17px;
     text-decoration: none;
+    text-align: center;
+    justify-content: center;
     display: inline-block;
     transition: .2s;
 }
 
-header a:hover {
+header nav.menu-desktop a:hover {
     color: #013eda;
     transform: scale(1.05);
 }
 
 .logo-private {
-    margin-left: 50px;
-    height: 80px;
     cursor: default;
 }
 
@@ -62,35 +60,96 @@ header nav ul {
     list-style-type: none;
 }
 
-header nav ul li {
+header nav.menu-desktop ul li {
     display: inline-block;
     padding: 0 40px;
 }
 
+.button-open-menu i {
+    color: #1c1666;
+    font-size: 40px;
+}
+
+.menu-mobile {
+    background-color: #b40409;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 99999;
+    width: 0%;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.menu-mobile.open-menu {
+    width: 70%;
+}
+
+.menu-mobile.open-menu ~ .overlay-menu {
+    display: block;
+}
+
+.menu-mobile .button-close {
+    padding: 20px 5%;
+    margin-right: 100%;
+}
+
+.menu-mobile .button-close i {
+    color: #f3f3f3;
+    font-size: 30px;
+}
+
+.menu-mobile nav ul {
+    text-align: center;
+}
+
+.menu-mobile nav ul li a {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 200;
+    padding: 20px 8%;
+    display: block;
+}
+
+.menu-mobile nav ul li a:hover {
+    background-color: #013eda;
+    color: #000;
+}
+
+.overlay-menu {
+    background-color: #000000df;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 88888;
+    display: none;
+}
+
 .nav-social {
+    margin-left: auto;
     display: flex;
     align-items: center;
-    margin-left: 350px;
-    column-gap: 20px;
+    column-gap: 1px;
 }
 
 .nav-social svg {
+    margin-right: 20px;
     width: 20px;
     height: 20px;
 }
 
-.main-button button {
+header .main-button button {
     padding: 10px 40px;
-    margin-right: 40px;
     font-size: 18px;
     font-weight: 600;
     border: 0;
     border-radius: 30px;
     cursor: pointer;
     background-color: #b40409;
-    height: 50px;
-    text-align: center;
-    align-items: center;
+    height: 45px;
     color: #fff;
 }
 
@@ -103,8 +162,9 @@ header nav ul li {
     box-shadow: 0px 0px 8px #ff000859;
 }
 
-
-
+.button-open-menu {
+    display: none;
+}
 
 section.main-content {
     padding: 40px 4%;
@@ -152,8 +212,6 @@ section.main-content .flex {
     box-shadow: 0px 0px 8px #ff000859;
 }
 
-
-
 section.english-kids {
     padding: 40px 4%;
     background-image: url(./assets/background-kids.png);
@@ -165,14 +223,12 @@ section.english-kids {
 section.english-kids .flex {
     align-items: center;
     gap: 10px;
-    margin-right: 200px;
 }
 
 .text-kids h1 {
     font-family: fontKids;
     color: #022d96;
-    font-size: 42px;
-    margin-bottom: 30px;
+    font-size: 40px;
     margin-bottom: 30px;
     line-height: 40px;
     font-weight: 500;
@@ -182,9 +238,8 @@ section.english-kids .flex {
     font-family: fontKids;
     color: #000000;
     font-size: 25px;
-    font-weight: 400;
-    line-height: 31px;
-    margin: 10px 0;
+    line-height: 30px;
+    margin-bottom: 30px;
     text-align: justify;
 }
 
@@ -243,8 +298,10 @@ footer {
 }
 
 footer.flex {
+    display: flex;
     justify-content: space-between;
 }
+
 footer .line-footer {
     color: rgb(44,78,212);
     border-top: 3px solid rgb(44,78,212);
@@ -257,7 +314,6 @@ footer .line-footer a {
     font-weight: bold;
     margin-top: 8px;
     margin-left: 5px;
-    
 }
 .logo-footer {
     height: 80px;

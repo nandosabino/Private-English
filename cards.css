@@ -1,7 +1,10 @@
 section.idiomas {
     padding: 40px 4%;
     min-height: 100vh;
-    margin-top: 250px;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h1.title-idiomas {
@@ -18,13 +21,12 @@ h1.title-idiomas {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    margin-bottom: 100px;
 }
 
 .card {
     width: 300px;
     height: 460px;
-    margin: 30px;
+    margin: 25px;
     background-color: #ffff;
     border-radius: 20px;
     overflow: hidden;
@@ -54,12 +56,11 @@ h1.title-idiomas {
 .card-idioma {
     color: #1c1663;
     font-size: 32px;
-    font-weight: 300;
     margin: 15px 0;
 }
 
 .card-text {
-    font-size: 15px;
+    font-size: 12px;
     width: 250px;
     margin: 0 auto;
 }
