@@ -1,4 +1,4 @@
-@media (max-width: 965px) {
+@media (max-width: 1045px) {
     .menu-desktop, .main-button {
         display: none;
     }
@@ -7,12 +7,16 @@
         flex-direction: column;
     }
 
+    .main-button-1 {
+        display: none;
+    }
+
     .button-open-menu {
         display: block;
     }
 
     .main-content .img-topo-site img {
-        width: 100vw;
+        width: 100%;
     }
 
     section.main-content .flex {
@@ -36,6 +40,12 @@
         margin-left: 28%;
         width: 100px;
         display: none;
+    }
+
+    .main-button-2 {
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
     }
 
     section.idiomas {
@@ -73,8 +83,8 @@
     }
 
     .img-kids1 img {
-        width: 100vw;
-        margin-bottom: 100px;
+        width: 100%;
+        margin-bottom: 140px;
     }
 
     .localization .contact-info {
@@ -92,7 +102,7 @@
     }
 
     .contact-info .localization-info, .img-private img {
-        width: 80vw;
+        width: 85vw;
     }
 
     footer {

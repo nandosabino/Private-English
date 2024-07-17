@@ -24,13 +24,13 @@ section.slider {
 }
 
 .slide-box img {
-    width: 100vw;
+    width: 105vw;
 }
 
 .nav-manual, .nav-auto {
     position: absolute;
     width: 100%;
-    margin-top: 59%;
+    margin-top: 62%;
     display: flex;
     justify-content: center;
 }

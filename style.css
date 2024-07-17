@@ -39,12 +39,15 @@ header > .interface {
 
 header a {
     color: #1c1663;
-    font-size: 17px;
+    font-size: 16px;
     text-decoration: none;
-    text-align: center;
-    justify-content: center;
     display: inline-block;
+    margin: 0 -6px;
     transition: .2s;
+}
+
+header nav.menu-desktop {
+    margin-top: 20px;
 }
 
 header nav.menu-desktop a:hover {
@@ -139,27 +142,40 @@ header nav.menu-desktop ul li {
     margin-right: 20px;
     width: 20px;
     height: 20px;
+    transition: transform 0.3s ease;
 }
 
-header .main-button button {
+.nav-social svg:hover {
+    transform: scale(1.2);
+}
+
+.main-button-1 button {
     padding: 10px 40px;
     font-size: 18px;
     font-weight: 600;
-    border: 0;
-    border-radius: 30px;
+    border: none;
+    border-radius: 20px;
     cursor: pointer;
     background-color: #b40409;
-    height: 45px;
     color: #fff;
 }
 
-.main-button button:hover {
-    animation-name: animation;
+@keyframes animation-button {
+    0%{
+        transform: scale(1);
+    }
+
+    100%{
+        transform: scale(1.05);
+    }
+}
+
+.main-button-1:hover {
+    animation-name: animation-button;
     animation-duration: 0.5s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
     animation-direction: alternate;
-    box-shadow: 0px 0px 8px #ff000859;
 }
 
 .button-open-menu {
@@ -193,23 +209,30 @@ section.main-content .flex {
     padding: 10px 40px;
     font-size: 18px;
     font-weight: 600;
-    border: 0;
-    border-radius: 30px;
+    border: none;
+    border-radius: 20px;
     cursor: pointer;
     background-color: #b40409;
-    height: 50px;
     text-align: center;
-    align-items: center;
     color: #fff;
 }
 
-.main-button-2 button:hover {
-    animation-name: animation;
-    animation-duration: 1s;
+@keyframes animation-button-2 {
+    0%{
+        transform: scale(1);
+    }
+
+    100%{
+        transform: scale(1.05);
+    }
+}
+
+.main-button-2:hover {
+    animation-name: animation-button-2;
+    animation-duration: 0.5s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
     animation-direction: alternate;
-    box-shadow: 0px 0px 8px #ff000859;
 }
 
 section.english-kids {
@@ -217,7 +240,6 @@ section.english-kids {
     background-image: url(./assets/background-kids.png);
     background-size: cover;
     background-position: left left;
-    margin: 80px 0;
 }
 
 section.english-kids .flex {
