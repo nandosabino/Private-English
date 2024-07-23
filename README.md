@@ -14,25 +14,42 @@
 <h2 align="center">Table of contents</h2>
 <p align="center">
  <a href="#installation">Installation</a> •
- <a href="#roadmap">Roadmap</a> • 
- <a href="#tecnologias">Tecnologias</a> • 
+ <a href="#technologies">Technologies</a> • 
  <a href="#contribuicao">Contribuição</a> • 
  <a href="#licenc-a">Licença</a> • 
  <a href="#autor">Autor</a>
 </p>
 
-## Installation
+## Installation 
 
 Windows (manual installation)
-```bash
-   git clone https://github.com/nandosabino/Private-English.git
+1. **Clone the repository:**
 
-## Uso
-Para usar o projeto, faça o seguinte...
+   Open the terminal and run the command below to clone the repository to your local machine:
 
-## Contribuição
-Se você deseja contribuir, siga estas diretrizes...
+   ```bash
+   git clone https://github.com/nandosabino/private-english.git
 
-## Licença
-Informações sobre a licença do projeto...
+2. **Navigate to the project directory:**
 
+    ```bash
+     cd private-English
+
+3. **Open the project in your text editor or IDE:**
+
+   ```bash
+    code .
+
+4. **Open the index.html file in your browser:**
+
+    You can open the file directly or use VSCode's "Live Server" extension to start a local server.
+
+    (Optional) Install Dependencies:
+
+     If your project has development dependencies or build tools, you need to install them. For example:
+
+      ```bash
+       npm install
+
+## Running the Project
+To see the project in action, open the index.html file in a web browser. If you are using a local server, it will update automatically when you save your changes.
