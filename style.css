@@ -237,7 +237,7 @@ section.main-content .flex {
 
 section.english-kids {
     padding: 40px 4%;
-    background-image: url(./assets/background-kids.png);
+    background-image: url(assets/background-kids.png);
     background-size: cover;
     background-position: left left;
 }
