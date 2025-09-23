@@ -3,54 +3,46 @@
 </div>
 <h1 align="center">Private Idiomas</h1>
 <p align="center">Private Idiomas é um curso particular de inglês, francês e italiano, projetado para oferecer uma melhor experiência de apresentação ao usuário. O site foi desenvolvido com HTML, CSS e JavaScript. O Bootstrap também foi utilizado para proporcionar uma interface amigável e responsiva.</p>
-<h3 align="center">✅ Private Idiomas 🌍 Project Finished ✅</h3>
+<h3 align="center">✅ Private Idiomas 🌍 Project Finalizado ✅</h3>
 <br>
-<h3>Technologies used 🤖:</h3>
+<h3>Tecnologias usadas 🤖:</h3>
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
 <img src="https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white">
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
 <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white">
 <br>
 
-<h2 align="center">Table of contents</h2>
-<p align="center">
- <a href="#installation">Installation</a> •
- <a href="#technologies">Technologies</a> • 
- <a href="#contribuicao">Contribuição</a> • 
- <a href="#licenc-a">Licença</a> • 
- <a href="#autor">Autor</a>
-</p>
+## Instalação 
 
-## Installation 
+Windows (instalação manual)
+1. **Clone o repositório:**
 
-Windows (manual installation)
-1. **Clone the repository:**
-
-   Open the terminal and run the command below to clone the repository to your local machine:
+   Abra o terminal e execute o comando abaixo para clonar o repositório para sua máquina local:
 
    ```bash
    git clone https://github.com/nandosabino/private-english.git
 
-2. **Navigate to the project directory:**
+2. **Navegue até o diretório do projeto:**
 
     ```bash
      cd private-English
 
-3. **Open the project in your text editor or IDE:**
+3. **Abra o projeto em seu editor de texto ou IDE:**
 
    ```bash
     code .
 
-4. **Open the index.html file in your browser:**
+4. **Abra o arquivo index.html em seu navegador:**
 
-    You can open the file directly or use VSCode's "Live Server" extension to start a local server.
+    Você pode abrir o arquivo diretamente ou usar a extensão "Live Server" do VSCode para iniciar um servidor local.
 
-    (Optional) Install Dependencies:
+    (Opcional) Instale as Dependências:
 
-     If your project has development dependencies or build tools, you need to install them. For example:
+     Se o seu projeto tiver dependências de desenvolvimento ou ferramentas de compilação, você precisará instalá-las. Por exemplo:
+   
 
       ```bash
        npm install
 
-## Running the Project
-To see the project in action, open the index.html file in a web browser. If you are using a local server, it will update automatically when you save your changes.
+## Executando o Projeto
+Para ver o projeto em ação, abra o arquivo index.html em um navegador. Se você estiver usando um servidor local, ele será atualizado automaticamente quando você salvar as alterações.
